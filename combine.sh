@@ -2,7 +2,7 @@
 
 if [ -z "$1" ] || [ -z "$2" ] || [ -z "$3" ] || [ ! -f "$1" ] || [ ! -d "$2" ] || [ ! -d "$3" ]
 then
-	echo "Usage: merge.sh <template_file> <input_dir> <output_dir>"
+	echo "Usage: combine.sh <template_file> <input_dir> <output_dir>"
 	exit 1
 fi
 
